@@ -143,17 +143,6 @@ def extract_sign_text(crop_img: np.ndarray, confidence_threshold: float = 0.30) 
 └── README.md
 ```
 
----
-
-## 📌 Roadmap & Future Enhancements
-
-- [ ] Deploy an interactive web interface using **Streamlit** or **Gradio**.
-- [ ] Export trained checkpoints to **ONNX** and **TensorRT** for real-time edge execution (e.g., NVIDIA Jetson).
-- [ ] Integrate multi-object tracking (**ByteTrack / DeepSORT**) for live video stream inferencing.
-- [ ] Expand the OCR post-processing dictionary for Iranian street and highway names.
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
