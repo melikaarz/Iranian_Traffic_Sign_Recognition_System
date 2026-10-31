@@ -138,18 +138,8 @@ def extract_sign_text(crop_img: np.ndarray, confidence_threshold: float = 0.30) 
 ## 📁 Repository Structure
 
 ```text
-├── data/
-│   ├── train/                  # Class-sorted training images
-│   ├── val/                    # Class-sorted validation images
-│   └── test/                   # Benchmark test images
-├── src/
-│   ├── preprocessing.py        # CLAHE and image transformation utilities
-│   ├── ocr_engine.py           # EasyOCR text and digit recognition module
-│   ├── train.py                # Model training and hyperparameter setup
-│   └── evaluate.py             # Evaluation metrics and confusion matrices
 ├── notebooks/
-│   └── Traffic_Sign_PTSD.ipynb # End-to-end experimental notebook
-├── requirements.txt
+│   └── Iranian_Traffic_sign_recognition.ipynb # End-to-end experimental notebook
 └── README.md
 ```
 
